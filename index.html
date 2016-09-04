@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working with Dates in JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="w3-container w3-purple">
+    <h1>Dates in JavaScript</h1>
+    <h3 id="myday"></h3>
+</header>
+
+<div class="w3-container constrain">
+    <H2> Calculate days left until the final project is due:</H2>
+    <p>Today is: </p>
+    <p id="todaysdate"></p>
+    <p>The final project is due:</p>
+    <p id="finaldue"></p>
+    <p>You have <span id = "daysleft"> </span> days left to complete your project</p>
+</div>
+
+<div class="w3-container w3-purple constrain">
+    <h2>Calculate your age</h2>
+    <form name="form1" method="post" action="">
+        <p>
+            <label>Today's Date:
+                <input name="today" type="text" id="today" readonly>
+            </label>
+        </p>
+        <p>
+            <label>Enter your birthday:
+                <input type="text" name="birthday" id="birthday">
+            </label>
+
+            <input type="button" name="age" id="age" value="Get Age">
+        </p>
+        <p>
+            <label>
+                <textarea name="reply" cols="80" rows="6" readonly id="reply"></textarea>
+            </label>
+        </p>
+    </form>
+</div>
+
+<script src="dates.js"></script>
+</body>
+</html>
